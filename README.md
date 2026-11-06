@@ -55,17 +55,17 @@ Les meilleures applications de prise de notes manuscrites sont souvent réservé
 ## Installation
 
 ### Utiliser l'application
-1. Ouvrir **https://TON-PSEUDO.github.io/carnet/** dans Chrome (Android) ou Safari (iPad).
+1. Ouvrir **https://TON-PSEUDO.github.io/Carnet_01/** dans Chrome (Android) ou Safari (iPad).
 2. **Android** : menu ⋮ → *Installer l'application*.
    **iPad** : bouton Partager → *Sur l'écran d'accueil*.
-3. Lancer **Carnet** depuis l'écran d'accueil : l'application s'ouvre en plein écran et fonctionne hors ligne.
+3. Lancer **Carnet_01** depuis l'écran d'accueil : l'application s'ouvre en plein écran et fonctionne hors ligne.
 
 ### Lancer en local
 Aucune dépendance ni étape de compilation : un simple serveur statique suffit.
 
 ```bash
-git clone https://github.com/TON-PSEUDO/carnet.git
-cd carnet
+git clone https://github.com/TON-PSEUDO/Carnet_01.git
+cd Carnet_01
 python3 -m http.server 8000
 # puis ouvrir http://localhost:8000
 ```
